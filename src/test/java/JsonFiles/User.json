@@ -1,0 +1,24 @@
+{
+  "metadata": "User",
+  "header":
+  [
+    {"key":"Authorization","value":"78fbc209ad5576cf5b4b045c2daf4dc15d28d7060a6bb2c9469884294198ff7c"},
+    {"key":"Accept","value":"application/json"},
+    {"key":"Content-Type","value":"application/json"}
+  ],
+
+
+
+  "createNewUser":
+  {
+    "apiUrl": "https://gorest.co.in/public-api/users",
+    "parameters":
+    [
+      {"parameter":"name" ,"value": "Tenali Ramakrishna"},
+      {"parameter":"gender" ,"value": "Male"},
+      {"parameter":"email" ,"value": "tenali.ramakrishna@15ce.com"},
+      {"parameter":"status" ,"value": "Active" }
+    ]
+  }
+
+}
